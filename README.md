@@ -6,3 +6,4 @@
 # train and test split data using sklearn.
 # Logistic Regression (Binary Classfication) & created Model using pickle. for sigmoid function refer:https://mathworld.wolfram.com/SigmoidFunction.html
 # Logistic Regression (Multiclass Classfication).
+# Decision Tree Classifier.

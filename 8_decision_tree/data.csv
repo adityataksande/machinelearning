@@ -1,0 +1,17 @@
+﻿Company,Job,Degree,Salary_more_tan_100k
+google,sales execuetive,bcahelors,0
+google,sales execuetive,masters,0
+google,business manager,bcahelors,1
+google,business manager,masters,1
+google,computer programmer,bcahelors,0
+google,computer programmer,masters,1
+abc pharma,sales execuetive,masters,0
+abc pharma,computer programmer,bcahelors,0
+abc pharma,business manager,bcahelors,0
+abc pharma,business manager,masters,1
+facebook,sales execuetive,bcahelors,1
+facebook,sales execuetive,masters,1
+facebook,business manager,bcahelors,1
+facebook,business manager,masters,1
+facebook,computer programmer,bcahelors,1
+facebook,computer programmer,masters,1
