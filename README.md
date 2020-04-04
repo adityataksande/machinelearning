@@ -8,3 +8,4 @@
 # Logistic Regression (Multiclass Classfication).
 # Decision Tree Classifier.
 # Support Vector Machine.
+# Random Forest Classifier.
