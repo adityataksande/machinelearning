@@ -11,7 +11,7 @@ X,y = digits.data[:-1], digits.target[:-1] # getting ready with or input and tar
 
 clf.fit(X,y) # fitting model
 
-print("Prediction :" , clf.predict([digits.data[-6]])) # making prediction
+print("Prediction :" , clf.predict([digits.data[-8]])) # making prediction
 
-plt.imshow(digits.images[-6],cmap=plt.cm.gray_r, interpolation="nearest") # getting an image of the predicted value
+plt.imshow(digits.images[-8],cmap=plt.cm.gray_r, interpolation="nearest") # getting an image of the predicted value
 plt.show() # showing the image
