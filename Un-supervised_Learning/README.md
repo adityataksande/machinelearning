@@ -1,2 +1,2 @@
 # machinelearning
-# K means clustering.
+# K means clustering. https://en.wikipedia.org/wiki/K-means_clustering
