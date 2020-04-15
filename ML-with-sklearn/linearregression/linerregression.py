@@ -24,3 +24,6 @@ linear.fit(X_train, y_train)
 accuray = linear.score(X_test, y_test)
 
 print(accuray)
+
+print("Coe: \n",linear.coef_)
+print("Intercept: \n",linear.intercept_)
