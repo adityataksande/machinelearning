@@ -3,6 +3,12 @@ import numpy as np
 import sklearn
 from sklearn import linear_model
 from sklearn.utils import shuffle
+import matplotlib.pyplot as plt
+from matplotlib import style
+import pickle
+
+
+
 
 data = pd.read_csv("student-mat.csv",sep=";")
 #print(data.head())
@@ -21,9 +27,22 @@ linear = linear_model.LinearRegression()
 
 linear.fit(X_train, y_train)
 
+#creating the pickle
+with open("studentmodel.pickle","wb") as f:
+    pickle.dump(linear, f)
+
+pickle_in = open("studentmodel.pickle","rb")
+linear = pickle.load(pickle_in)
+# closing
+
+
+
 accuray = linear.score(X_test, y_test)
 
 print(accuray)
 
 print("Coe: \n",linear.coef_)
 print("Intercept: \n",linear.intercept_)
+predictions = linear.predict(X_test)
+for x in range(len(predictions)):
+    print(predictions[x], X_test[x], y_test[x])
