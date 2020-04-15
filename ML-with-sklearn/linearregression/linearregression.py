@@ -56,7 +56,7 @@ for x in range(len(predictions)):
 
 
     # ploting
-p = "G2"
+p = "absences"
 style.use("ggplot")
 plt.scatter(data[p],data["G3"])
 plt.xlabel(p)
