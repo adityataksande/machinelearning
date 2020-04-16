@@ -19,7 +19,7 @@ print(X_train,y_train)
 classes = ['malignant' 'benign']
 
 
-clf = svm.SVC(kernel='linear')
+clf = svm.SVC(kernel='linear',C=10)
 
 clf.fit(X_train, y_train)
 
