@@ -5,7 +5,7 @@ from sklearn.datasets import load_digits
 from sklearn.cluster import KMeans
 
 df = load_digits()
-# dir(df)
+
 data = scale(df.data)
 
 y = df.target
