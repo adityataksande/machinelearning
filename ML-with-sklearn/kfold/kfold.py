@@ -8,7 +8,7 @@ df = load_digits()
 # dir(df)
 data = scale(df.data)
 
-y = data.targets
+y = df.target
 
 k = 10
 
@@ -29,3 +29,4 @@ def bench_k_means(estimator, name, data):
 
 clf = KMeans(n_clusters=k, init="random", n_init=10)
 
+bench_k_means(clf, "1", data)
